@@ -3,7 +3,7 @@ import {Props} from './types.ts';
 
 const Stack: React.FC<Props> = ({children, className}) => {
     return (
-        <div className={`flex flex-col ${className}`}>
+        <div className={`flex flex-col w-fit h-fit ${className}`}>
             {children}
         </div>
     );
