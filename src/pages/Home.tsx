@@ -1,8 +1,8 @@
 import React from 'react';
 
-import Box from '../abstractions/Box.tsx'
-import Stack from '../abstractions/Stack.tsx';
-import Queue from '../abstractions/Queue.tsx'
+import Box from '../atoms/Box.tsx'
+import Stack from '../atoms/Stack.tsx';
+import Queue from '../atoms/Queue.tsx'
 
 const Home = () => {
     return (
