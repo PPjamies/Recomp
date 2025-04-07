@@ -1,5 +1,9 @@
 import React from 'react';
-import {Props} from './types.ts';
+
+type Props = {
+    children?: React.ReactNode
+    className?: string;
+};
 
 const Box: React.FC<Props> = ({children, className}) => {
     return (
