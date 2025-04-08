@@ -1,6 +1,6 @@
 import React from 'react';
-import Circle from '../atoms/Circle.tsx';
-import Image from '../atoms/Image.tsx';
+import Circle from '../layout/Circle.tsx';
+import Image from './Image.tsx';
 import {AvatarSize} from '../../constants/AvatarSize.ts';
 
 type Props = {
@@ -9,7 +9,6 @@ type Props = {
     size?: AvatarSize,
 };
 
-//todo: onhover - tooltip, onclick - do something, hasBadge - show badge
 const Avatar: React.FC<Props> = ({
                                      name,
                                      src,

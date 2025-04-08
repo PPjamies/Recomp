@@ -1,12 +1,12 @@
 import React from 'react';
 
-import Box from '../components/atoms/Box.tsx'
-import VStack from '../components/stack/VStack.tsx';
-import HStack from '../components/stack/HStack.tsx'
-import Avatar from "../components/elements/Avatar.tsx";
-import Image from "../components/atoms/Image.tsx";
+import Box from '../components/layout/Box.tsx'
+import VStack from '../components/layout/stack/VStack.tsx';
+import HStack from '../components/layout/stack/HStack.tsx'
+import Avatar from "../components/media/Avatar.tsx";
+import Image from "../components/media/Image.tsx";
 import {AvatarSize} from "../constants/AvatarSize.ts";
-import Tooltip from "../components/elements/Tooltip.tsx";
+import Tooltip from "../components/overlay/Tooltip.tsx";
 
 const Home = () => {
     return (
